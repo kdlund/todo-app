@@ -35,6 +35,7 @@ gulp.task('watch', [
   'styles.watch',
   'static.watch',
   'templates.watch',
+  'fonts',
   'server',
   'livereload'
 ]);
@@ -85,7 +86,6 @@ gulp.task('templates', function () {
 gulp.task('templates.watch', ['templates'], function () {
   gulp.watch('src/templates/**/*.html', ['templates']);
 });
-
 
 gulp.task('fonts', function () {
   return gulp.src(lib.ext(['eot', 'svg', 'ttf', 'woff']).files)
