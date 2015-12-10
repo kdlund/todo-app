@@ -1,0 +1,22 @@
+{
+  "name": "todo-app",
+  "version": "0.0.0",
+  "homepage": "https://github.com/jstodd2612/todo-app",
+  "authors": [
+    "jstodd <jstodd2612@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.7",
+    "bootstrap": "~3.3.5",
+    "angular-route": "~1.4.7"
+  }
+}

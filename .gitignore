@@ -1,0 +1,6 @@
+node_mdoules/
+bower_components/
+build/
+.DS_Store
+*.db
+*.log
