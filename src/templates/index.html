@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html ng-app="TodoApp">
+  <head>
+    <meta charset="utf-8">
+    <title>DGM Todo App</title>
+    <link href="/css/app.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Floating navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <span class="navbar-brand" href="#">Todo App</span>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+          <li logout></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Controller View Location -->
+    <div class="container">
+      <div ng-view></div>
+    </div>
+
+    <script src="/js/app.min.js"></script>
+  </body>
+</html>
